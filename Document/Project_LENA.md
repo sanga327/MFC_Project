@@ -12,6 +12,7 @@
 - MFC 프로젝트 이용
 
 <br>
+---
 
 ### 2. 구조 설계 (Structure Design)
 
