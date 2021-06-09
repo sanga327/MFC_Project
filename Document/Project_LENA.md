@@ -12,6 +12,7 @@
 - MFC 프로젝트 이용
 
 <br>
+
 ---
 
 ### 2. 구조 설계 (Structure Design)
@@ -20,12 +21,12 @@
 
 **(1) Use Case Diagram**
 
-<img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Use Case Diagram.png" title="Use Case Diagram" alt="Use Case Diagram">
+<img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Use Case Diagram.png" title="Use Case Diagram" alt="Use Case Diagram" width="80%">
 <br>
 
 **(2) Sequence Diagram**
 
-<img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Sequence Diagram.png" title="Sequence Diagram" alt="Sequence Diagram">
+<img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Sequence Diagram.png" title="Sequence Diagram" alt="Sequence Diagram" width="80%">
 
 <br>
 
