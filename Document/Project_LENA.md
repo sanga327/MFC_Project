@@ -11,7 +11,7 @@
 - 마스크 영상을 이용하여 AND연산과 OR연산을 구현하여 새로운 영상을 생성, 저장
 - MFC 프로젝트 이용
 
-
+<br>
 
 ### 2. 구조 설계 (Structure Design)
 
@@ -20,19 +20,18 @@
 **(1) Use Case Diagram**
 
 <img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Use Case Diagram.png" title="Use Case Diagram" alt="Use Case Diagram">
-
-
+<br>
 
 **(2) Sequence Diagram**
 
 <img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Sequence Diagram.png" title="Sequence Diagram" alt="Sequence Diagram">
 
-
+<br>
 
 **(3) Class Diagram**
 
 <img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Class Diagram.png" title="Class Diagram" alt="Class Diagram">
-
+<br>
 
 
 #### 2) 헤더 생성
@@ -42,7 +41,7 @@
 - **CDoc 헤더**
   - 애플리케이션 내부에서 데이터를 읽고 저장하는 기능을 위한 변수와 함수들이 정의되어 있다.
 
-
+<br>
 
 #### 3) 클래스 생성
 
@@ -54,6 +53,8 @@
   - 작업 영역으로 들어오는 메시지들을 처리 할 수 있다.
 
   - 사용자뷰들은 이 CView 클래스로부터 상속받아 사용한다.
+   
+<br>
 
 - **CDoc 클래스**
 - 함수 기능을 수행하는 클래스이다.
@@ -64,7 +65,7 @@
   
 - 사용자의 도큐먼트들은 이 CDocument 클래스로부터 상속받아 사용한다.
 
-
+<br>
 
 #### 4) 기능(함수)
 
@@ -75,6 +76,8 @@
   
   - **OnFrameComb 메서드**: for 문을 이용하여 (입력 영상, 마스크 영상) 을 AND연산을 진행하고 (배경 영상, NOT(마스크 영상)) AND 연산을 하여 그 후  OR연산을 하는 기능을 한다.
   - **OnImgComb 메서드**: 입력된 영상, 마스크 영상, 배경 영상을 가지고 OnFrameComb함수를 이용하여 논리연산을 하는 기능을 한다.
+  
+  <br>
   
 - **View 클래스 안에 있는 메서드**
 - **OnDraw 메서드**: 애플리케이션의 화면을 통해서 데이터를 보여주는 기능을 한다.
@@ -107,7 +110,7 @@
 
 <img src="./img/result.png" title="Test" alt="Test">
 
-
+<br>
 
 - 출력된 이미지
 
