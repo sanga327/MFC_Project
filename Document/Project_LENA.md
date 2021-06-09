@@ -11,7 +11,6 @@
 - 마스크 영상을 이용하여 AND연산과 OR연산을 구현하여 새로운 영상을 생성, 저장
 - MFC 프로젝트 이용
 
-<br>
 
 ---
 
@@ -26,7 +25,7 @@
 
 **(2) Sequence Diagram**
 
-<img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Sequence Diagram.png" title="Sequence Diagram" alt="Sequence Diagram" width="80%">
+<img src="https://github.com/sanga327/MFC_Project/blob/main/FlowChart/Sequence Diagram.png" title="Sequence Diagram" alt="Sequence Diagram" width="60%">
 
 <br>
 
